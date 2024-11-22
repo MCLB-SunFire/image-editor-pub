@@ -1,0 +1,35 @@
+{
+  "name": "discord-image-edit-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that uses OpenAI's image editing API to edit user-uploaded images.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.4",
+    "form-data": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/discord-image-edit-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "image-edit",
+    "openai"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/discord-image-edit-bot/issues"
+  },
+  "homepage": "https://github.com/your-username/discord-image-edit-bot#readme"
+}
